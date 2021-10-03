@@ -1,0 +1,7 @@
+starting_num = 1
+second = 1
+for i in range(9):
+    print(starting_num)
+    first = starting_num
+    starting_num = second
+    second = first+second
